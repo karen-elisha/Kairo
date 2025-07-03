@@ -1,4 +1,4 @@
-; boot.asm - Your first bootloader
+; boot.asm -First bootloader
 [org 0x7c00]       ; BIOS loads this at 0x7C00
 mov ah, 0x0E       ; BIOS teletype function (print char)
 
